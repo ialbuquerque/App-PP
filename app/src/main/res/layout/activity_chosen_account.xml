@@ -19,11 +19,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Adicionar Receita"
-        android:id="@+id/AddIncomeButton"
+        android:id="@+id/AddIncomeButtonCA"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/AddExpenseButton" />
+        android:layout_toEndOf="@+id/AddExpenseButton"
+        android:layout_toRightOf="@+id/AddExpenseButton" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -41,8 +42,8 @@
         android:id="@+id/AccountItemsListView"
         android:layout_below="@+id/AccountTextView"
         android:layout_marginTop="47dp"
-        android:layout_alignRight="@+id/AddIncomeButton"
-        android:layout_alignEnd="@+id/AddIncomeButton"
+        android:layout_alignRight="@+id/AddIncomeButtonCA"
+        android:layout_alignEnd="@+id/AddIncomeButtonCA"
         android:choiceMode="singleChoice" />
 
 </RelativeLayout>
